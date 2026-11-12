@@ -1,0 +1,10 @@
+[
+	{"id": "classique", "label": "Motos classiques", "type": "moto"},
+	{"id": "taxi", "label": "Motos taxi", "type": "moto"},
+	{"id": "sportive", "label": "Motos sportives", "type": "moto"},
+	{"id": "economique", "label": "Motos économiques", "type": "moto"},
+	{"id": "puissante", "label": "Motos puissantes", "type": "moto"},
+	{"id": "tricycle_passagers", "label": "Tricycles passagers", "type": "tricycle"},
+	{"id": "tricycle_marchandises", "label": "Tricycles marchandises", "type": "tricycle"},
+	{"id": "tricycle_grande_capacite", "label": "Tricycles de grande capacité", "type": "tricycle"}
+]

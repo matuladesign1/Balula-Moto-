@@ -1,0 +1,609 @@
+{
+ "id": "kinshasa",
+ "name": "Kinshasa (carte inspirée de lieux réels)",
+ "notice": "Positions réelles (latitude/longitude) réduites à l'échelle 1 pour 4. Le tracé des routes vient d'un calcul d'itinéraire TomTom puis a été simplifié. Les bâtiments sont des modèles simplifiés, pas des copies exactes. L'atelier et le magasin de véhicules sont fictifs. Les lieux marqués approx sont à corriger avec la vraie position.",
+ "origin": {
+  "lon": 15.3164,
+  "lat": -4.30164
+ },
+ "scale_divisor": 4.0,
+ "landmark_scale": 1.5,
+ "spawn": {
+  "road": "30juin",
+  "at_m": 55.0,
+  "lane": 4.5
+ },
+ "roads": [
+  {
+   "id": "30juin",
+   "name": "Boulevard du 30 Juin",
+   "width": 22,
+   "divided": true,
+   "points": [
+    [
+     15.31642,
+     -4.3018
+    ],
+    [
+     15.31494,
+     -4.30197
+    ],
+    [
+     15.31274,
+     -4.30257
+    ],
+    [
+     15.31055,
+     -4.3032
+    ],
+    [
+     15.30836,
+     -4.30381
+    ],
+    [
+     15.3068,
+     -4.30425
+    ]
+   ]
+  },
+  {
+   "id": "nord_sud",
+   "name": "",
+   "width": 18,
+   "divided": false,
+   "points": [
+    [
+     15.3068,
+     -4.30425
+    ],
+    [
+     15.30709,
+     -4.30523
+    ],
+    [
+     15.30787,
+     -4.30811
+    ],
+    [
+     15.30901,
+     -4.3121
+    ],
+    [
+     15.30958,
+     -4.31401
+    ],
+    [
+     15.31079,
+     -4.31796
+    ],
+    [
+     15.31198,
+     -4.32209
+    ],
+    [
+     15.31316,
+     -4.32612
+    ],
+    [
+     15.31402,
+     -4.32916
+    ],
+    [
+     15.31413,
+     -4.33029
+    ],
+    [
+     15.31423,
+     -4.33086
+    ]
+   ]
+  },
+  {
+   "id": "sendwe",
+   "name": "Boulevard Sendwe",
+   "width": 20,
+   "divided": true,
+   "points": [
+    [
+     15.31423,
+     -4.33086
+    ],
+    [
+     15.31417,
+     -4.33167
+    ],
+    [
+     15.31198,
+     -4.33229
+    ],
+    [
+     15.31042,
+     -4.33275
+    ],
+    [
+     15.30676,
+     -4.33382
+    ]
+   ]
+  },
+  {
+   "id": "triomphal",
+   "name": "Boulevard Triomphal",
+   "width": 24,
+   "divided": true,
+   "points": [
+    [
+     15.30676,
+     -4.33382
+    ],
+    [
+     15.30457,
+     -4.3325
+    ],
+    [
+     15.30352,
+     -4.33253
+    ],
+    [
+     15.30221,
+     -4.33319
+    ],
+    [
+     15.30125,
+     -4.33406
+    ],
+    [
+     15.30162,
+     -4.33535
+    ]
+   ]
+  },
+  {
+   "id": "triomphal_sud",
+   "name": "",
+   "width": 18,
+   "divided": false,
+   "points": [
+    [
+     15.30162,
+     -4.33535
+    ],
+    [
+     15.30082,
+     -4.33559
+    ],
+    [
+     15.30077,
+     -4.33627
+    ],
+    [
+     15.30118,
+     -4.33682
+    ],
+    [
+     15.30294,
+     -4.33738
+    ],
+    [
+     15.30449,
+     -4.33786
+    ],
+    [
+     15.30573,
+     -4.33825
+    ],
+    [
+     15.30873,
+     -4.33919
+    ],
+    [
+     15.3101,
+     -4.33963
+    ],
+    [
+     15.31157,
+     -4.34011
+    ],
+    [
+     15.31352,
+     -4.34074
+    ]
+   ]
+  },
+  {
+   "id": "victoire",
+   "name": "Avenue de la Victoire",
+   "width": 18,
+   "divided": false,
+   "points": [
+    [
+     15.31352,
+     -4.34074
+    ],
+    [
+     15.31377,
+     -4.34074
+    ],
+    [
+     15.31419,
+     -4.33912
+    ],
+    [
+     15.31453,
+     -4.33752
+    ],
+    [
+     15.31479,
+     -4.33581
+    ],
+    [
+     15.31494,
+     -4.33418
+    ],
+    [
+     15.31486,
+     -4.33303
+    ],
+    [
+     15.31468,
+     -4.33237
+    ],
+    [
+     15.31494,
+     -4.33203
+    ]
+   ]
+  },
+  {
+   "id": "kasa_vubu",
+   "name": "Avenue Kasa-Vubu",
+   "width": 22,
+   "divided": true,
+   "points": [
+    [
+     15.31494,
+     -4.33203
+    ],
+    [
+     15.3158,
+     -4.33238
+    ],
+    [
+     15.3174,
+     -4.33303
+    ],
+    [
+     15.31954,
+     -4.33396
+    ],
+    [
+     15.3217,
+     -4.33485
+    ],
+    [
+     15.32423,
+     -4.33591
+    ],
+    [
+     15.32668,
+     -4.3369
+    ],
+    [
+     15.32698,
+     -4.33711
+    ]
+   ]
+  },
+  {
+   "id": "lumumba",
+   "name": "Boulevard Lumumba",
+   "width": 30,
+   "divided": true,
+   "points": [
+    [
+     15.32698,
+     -4.33711
+    ],
+    [
+     15.32763,
+     -4.33842
+    ],
+    [
+     15.32931,
+     -4.34164
+    ],
+    [
+     15.33113,
+     -4.34517
+    ],
+    [
+     15.33374,
+     -4.35027
+    ],
+    [
+     15.33599,
+     -4.3546
+    ],
+    [
+     15.3374,
+     -4.35735
+    ],
+    [
+     15.3398,
+     -4.36199
+    ],
+    [
+     15.34115,
+     -4.36464
+    ],
+    [
+     15.34382,
+     -4.36983
+    ],
+    [
+     15.34443,
+     -4.37256
+    ]
+   ]
+  },
+  {
+   "id": "lumumba_sud",
+   "name": "Boulevard Lumumba (vers N'djili)",
+   "width": 30,
+   "divided": true,
+   "points": [
+    [
+     15.34443,
+     -4.37256
+    ],
+    [
+     15.34435,
+     -4.37358
+    ],
+    [
+     15.34429,
+     -4.3744
+    ],
+    [
+     15.3446,
+     -4.3752
+    ],
+    [
+     15.34661,
+     -4.37696
+    ],
+    [
+     15.34783,
+     -4.37804
+    ],
+    [
+     15.3485,
+     -4.37889
+    ],
+    [
+     15.34903,
+     -4.37965
+    ],
+    [
+     15.34909,
+     -4.38084
+    ],
+    [
+     15.34978,
+     -4.38143
+    ],
+    [
+     15.35023,
+     -4.38156
+    ]
+   ]
+  },
+  {
+   "id": "liberation",
+   "name": "Avenue de la Libération (vers Matete)",
+   "width": 20,
+   "divided": true,
+   "points": [
+    [
+     15.34978,
+     -4.38143
+    ],
+    [
+     15.34764,
+     -4.38101
+    ],
+    [
+     15.34709,
+     -4.3809
+    ],
+    [
+     15.34606,
+     -4.38158
+    ],
+    [
+     15.34494,
+     -4.38233
+    ],
+    [
+     15.34372,
+     -4.3827
+    ],
+    [
+     15.34305,
+     -4.38289
+    ],
+    [
+     15.34332,
+     -4.38387
+    ],
+    [
+     15.34437,
+     -4.38563
+    ],
+    [
+     15.3449,
+     -4.38717
+    ],
+    [
+     15.34512,
+     -4.38923
+    ],
+    [
+     15.34545,
+     -4.38982
+    ]
+   ]
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "gare_centrale",
+   "kind": "gare",
+   "name": "Gare Centrale (Gombe)",
+   "lon": 15.3164,
+   "lat": -4.30164,
+   "dx": 0,
+   "dz": -34,
+   "yaw_deg": 0,
+   "real": true,
+   "note": "Place de la Gare Centrale, Boulevard du 30 Juin. Grande roue et tour Marina d'après vos photos 9 et 11."
+  },
+  {
+   "id": "stade_martyrs",
+   "kind": "stade",
+   "name": "Stade des Martyrs",
+   "lon": 15.310363,
+   "lat": -4.33019,
+   "dx": 0,
+   "dz": -14,
+   "yaw_deg": 0,
+   "real": true,
+   "note": "Stade des Martyrs de la Pentecôte, Boulevard Sendwe."
+  },
+  {
+   "id": "palais_peuple",
+   "kind": "palais",
+   "name": "Palais du Peuple",
+   "lon": 15.303467,
+   "lat": -4.332156,
+   "dx": 0,
+   "dz": -36,
+   "yaw_deg": 0,
+   "real": true,
+   "note": "Boulevard Triomphal."
+  },
+  {
+   "id": "centre_culturel",
+   "kind": "ccapac",
+   "name": "Centre culturel (CCAPAC)",
+   "lon": 15.301621,
+   "lat": -4.336024,
+   "dx": 32,
+   "dz": 0,
+   "yaw_deg": 0,
+   "real": true,
+   "note": "En face du Palais du Peuple."
+  },
+  {
+   "id": "espace_victoire",
+   "kind": "victoire",
+   "name": "Espace Victoire",
+   "lon": 15.31494,
+   "lat": -4.33203,
+   "dx": 14,
+   "dz": -26,
+   "yaw_deg": 0,
+   "real": true,
+   "approx": true,
+   "note": "Position approximative : à corriger avec la vraie position de l'Espace Victoire sur l'avenue de la Victoire."
+  },
+  {
+   "id": "tour_limete",
+   "kind": "tour",
+   "name": "Tour de l'échangeur de Limete",
+   "lon": 15.345052,
+   "lat": -4.37226,
+   "dx": 40,
+   "dz": -18,
+   "yaw_deg": 0,
+   "real": true,
+   "note": "Place de l'Échangeur, Boulevard Lumumba."
+  },
+  {
+   "id": "monument_lumumba",
+   "kind": "stele",
+   "name": "Monument Patrice Lumumba",
+   "lon": 15.34792,
+   "lat": -4.377808,
+   "dx": 24,
+   "dz": 0,
+   "yaw_deg": 0,
+   "real": true,
+   "note": "Boulevard Lumumba, après l'échangeur."
+  },
+  {
+   "id": "panneau_matete",
+   "kind": "panneau",
+   "name": "Matete",
+   "text": "MATETE",
+   "lon": 15.34545,
+   "lat": -4.38982,
+   "dx": 14,
+   "dz": 0,
+   "yaw_deg": 0,
+   "real": true,
+   "note": "Bout de l'avenue de la Libération."
+  },
+  {
+   "id": "panneau_ndjili",
+   "kind": "panneau",
+   "name": "Vers N'djili",
+   "text": "N'DJILI / AEROPORT",
+   "lon": 15.35023,
+   "lat": -4.38156,
+   "dx": 14,
+   "dz": -16,
+   "yaw_deg": 0,
+   "real": true,
+   "note": "Bout du Boulevard Lumumba dans cette carte."
+  },
+  {
+   "id": "atelier",
+   "kind": "garage",
+   "name": "Atelier - Garage (fictif)",
+   "pos_m": [
+    -75,
+    -26
+   ],
+   "yaw_deg": 0,
+   "real": false,
+   "note": "Lieu fictif du jeu."
+  },
+  {
+   "id": "magasin",
+   "kind": "shop",
+   "name": "Magasin de véhicules (fictif)",
+   "pos_m": [
+    -125,
+    70
+   ],
+   "yaw_deg": 0,
+   "real": false,
+   "note": "Lieu fictif du jeu."
+  }
+ ],
+ "passerelles": [
+  {
+   "road": "lumumba",
+   "from_end_m": 200
+  },
+  {
+   "road": "lumumba",
+   "from_end_m": 2200
+  },
+  {
+   "road": "lumumba",
+   "from_end_m": 4200
+  }
+ ]
+}

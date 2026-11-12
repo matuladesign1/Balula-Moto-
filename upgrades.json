@@ -1,0 +1,125 @@
+{
+	"performance": [
+		{
+			"id": "engine",
+			"label": "Moteur",
+			"description": "Accélération et puissance.",
+			"levels": [
+				{"name": "Réglage moteur", "price_pct": 0.05, "power_mult": 1.06, "accel_mult": 1.10, "speed_mult": 1.03},
+				{"name": "Kit performance", "price_pct": 0.10, "power_mult": 1.12, "accel_mult": 1.20, "speed_mult": 1.06},
+				{"name": "Moteur préparé", "price_pct": 0.18, "power_mult": 1.20, "accel_mult": 1.32, "speed_mult": 1.10}
+			]
+		},
+		{
+			"id": "brakes",
+			"label": "Freinage",
+			"description": "Distance de freinage plus courte.",
+			"levels": [
+				{"name": "Plaquettes renforcées", "price_pct": 0.02, "brake_mult": 1.15},
+				{"name": "Disque avant", "price_pct": 0.04, "brake_mult": 1.30},
+				{"name": "Freinage sport", "price_pct": 0.07, "brake_mult": 1.50}
+			]
+		},
+		{
+			"id": "suspension",
+			"label": "Suspension",
+			"description": "Confort et tenue de route.",
+			"levels": [
+				{"name": "Amortisseurs renforcés", "price_pct": 0.02, "handling_mult": 1.06, "damage_mult": 0.92},
+				{"name": "Suspension sport", "price_pct": 0.04, "handling_mult": 1.12, "damage_mult": 0.84},
+				{"name": "Suspension tout-terrain", "price_pct": 0.07, "handling_mult": 1.18, "damage_mult": 0.75}
+			]
+		}
+	],
+	"tires": {
+		"label": "Pneus",
+		"description": "Différents types de pneus selon les routes.",
+		"options": [
+			{"id": "standard", "name": "Standard", "price_pct": 0.0, "grip_mult": 1.00, "tread": "standard"},
+			{"id": "route", "name": "Route (bitume)", "price_pct": 0.015, "grip_mult": 1.10, "tread": "slick"},
+			{"id": "tout_terrain", "name": "Tout-terrain", "price_pct": 0.02, "grip_mult": 1.05, "tread": "knobby"}
+		]
+	},
+	"aesthetic": [
+		{
+			"id": "color", "label": "Couleur de la carrosserie",
+			"options": [
+				{"id": "bleu", "name": "Bleu", "value": "#1f4bd8", "price": 0},
+				{"id": "noir", "name": "Noir", "value": "#1a1a1a", "price": 25000},
+				{"id": "rouge", "name": "Rouge", "value": "#c8102e", "price": 25000},
+				{"id": "jaune", "name": "Jaune", "value": "#f7c600", "price": 25000},
+				{"id": "vert", "name": "Vert", "value": "#1e8f3e", "price": 25000},
+				{"id": "blanc", "name": "Blanc", "value": "#eeeeee", "price": 25000},
+				{"id": "orange", "name": "Orange", "value": "#f07d00", "price": 25000},
+				{"id": "gris", "name": "Gris", "value": "#8a8f98", "price": 25000},
+				{"id": "ciel", "name": "Bleu ciel", "value": "#2a9df4", "price": 25000}
+			]
+		},
+		{
+			"id": "sticker", "label": "Autocollants",
+			"options": [
+				{"id": "none", "name": "Aucun", "price": 0},
+				{"id": "vert", "name": "Bandes vert citron", "price": 30000},
+				{"id": "flamme", "name": "Flammes", "price": 35000},
+				{"id": "damier", "name": "Damier", "price": 30000},
+				{"id": "congo", "name": "Bandes bleu-jaune-rouge", "price": 40000}
+			]
+		},
+		{
+			"id": "rims", "label": "Jantes",
+			"options": [
+				{"id": "alliage", "name": "Alliage 5 branches", "price": 0},
+				{"id": "acier", "name": "Acier plein", "price": 15000},
+				{"id": "noir", "name": "Alliage noir", "price": 45000},
+				{"id": "dore", "name": "Alliage doré", "price": 60000}
+			]
+		},
+		{
+			"id": "mirrors", "label": "Rétroviseurs",
+			"options": [
+				{"id": "standard", "name": "Standard", "price": 0},
+				{"id": "sport", "name": "Sport", "price": 20000},
+				{"id": "chrome", "name": "Chromés", "price": 30000}
+			]
+		},
+		{
+			"id": "headlight", "label": "Phares",
+			"options": [
+				{"id": "rond", "name": "Rond classique", "price": 0},
+				{"id": "led", "name": "LED carré", "price": 60000}
+			]
+		},
+		{
+			"id": "seat", "label": "Selle / banquette",
+			"options": [
+				{"id": "noir", "name": "Noire", "price": 0},
+				{"id": "marron", "name": "Marron", "price": 25000},
+				{"id": "rouge", "name": "Rouge", "price": 25000}
+			]
+		},
+		{
+			"id": "accessory", "label": "Accessoires",
+			"options": [
+				{"id": "none", "name": "Aucun", "price": 0},
+				{"id": "topcase", "name": "Top-case arrière", "price": 80000, "for": ["moto"]},
+				{"id": "galerie", "name": "Galerie de toit", "price": 70000, "for": ["tricycle"]},
+				{"id": "drapeau", "name": "Petit drapeau", "price": 15000}
+			]
+		},
+		{
+			"id": "protection", "label": "Protections",
+			"options": [
+				{"id": "none", "name": "Aucune", "price": 0},
+				{"id": "crashbar", "name": "Protège-moteur", "price": 50000, "for": ["moto"]},
+				{"id": "pare_chocs", "name": "Pare-chocs avant", "price": 90000, "for": ["tricycle"]}
+			]
+		},
+		{
+			"id": "decor", "label": "Éléments décoratifs",
+			"options": [
+				{"id": "none", "name": "Aucun", "price": 0},
+				{"id": "led", "name": "Néon sous le châssis", "price": 45000}
+			]
+		}
+	]
+}

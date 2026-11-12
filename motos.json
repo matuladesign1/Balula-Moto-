@@ -1,0 +1,110 @@
+[
+	{
+		"id": "tvs_hlx150", "name": "TVS HLX 150", "brand": "TVS (modèle inspiré)",
+		"type": "moto", "category": "classique", "price_cdf": 3000000,
+		"power_hp": 12.0, "max_speed_kmh": 90, "consumption_l100": 2.4, "fuel_tank_l": 12,
+		"passengers": 1, "cargo_kg": 60, "weight_kg": 115, "performance_level": 3,
+		"description": "La moto de départ : robuste et simple à entretenir. Réservoir bleu, selle noire et porte-bagages.",
+		"model": {"style": "classique", "wheel_radius": 0.32},
+		"default_custom": {"color": "bleu", "sticker": "vert", "rims": "alliage"}
+	},
+	{
+		"id": "honda_cg125", "name": "Honda CG 125 (type CG)", "brand": "Honda (modèle inspiré)",
+		"type": "moto", "category": "classique", "price_cdf": 3300000,
+		"power_hp": 9.5, "max_speed_kmh": 85, "consumption_l100": 2.1, "fuel_tank_l": 12,
+		"passengers": 1, "cargo_kg": 50, "weight_kg": 105, "performance_level": 2,
+		"description": "Une classique très répandue : fiable, économique, pièces faciles à trouver.",
+		"model": {"style": "classique", "wheel_radius": 0.32},
+		"default_custom": {"color": "rouge", "sticker": "none", "rims": "alliage"}
+	},
+	{
+		"id": "haojue_hj125", "name": "Haojue HJ 125 (type Haojue)", "brand": "Haojue (modèle inspiré)",
+		"type": "moto", "category": "classique", "price_cdf": 2900000,
+		"power_hp": 9.0, "max_speed_kmh": 80, "consumption_l100": 2.2, "fuel_tank_l": 11,
+		"passengers": 1, "cargo_kg": 50, "weight_kg": 108, "performance_level": 2,
+		"description": "Une moto abordable pour bien démarrer l'activité.",
+		"model": {"style": "classique", "wheel_radius": 0.31},
+		"default_custom": {"color": "noir", "sticker": "none", "rims": "alliage"}
+	},
+	{
+		"id": "boxer_150_taxi", "name": "Boxer 150 Taxi (type Boxer)", "brand": "Bajaj (modèle inspiré)",
+		"type": "moto", "category": "taxi", "price_cdf": 3500000,
+		"power_hp": 12.0, "max_speed_kmh": 95, "consumption_l100": 2.3, "fuel_tank_l": 13,
+		"passengers": 1, "cargo_kg": 90, "weight_kg": 125, "performance_level": 3,
+		"description": "Pensée pour le taxi-moto : grand porte-bagages, suspension renforcée, protège-moteur.",
+		"model": {"style": "taxi", "wheel_radius": 0.32},
+		"default_custom": {"color": "jaune", "sticker": "none", "rims": "acier", "protection": "crashbar"}
+	},
+	{
+		"id": "tvs_hlx150_taxi", "name": "TVS HLX 150 Taxi renforcée", "brand": "TVS (modèle inspiré)",
+		"type": "moto", "category": "taxi", "price_cdf": 3700000,
+		"power_hp": 12.3, "max_speed_kmh": 90, "consumption_l100": 2.5, "fuel_tank_l": 13,
+		"passengers": 1, "cargo_kg": 100, "weight_kg": 122, "performance_level": 3,
+		"description": "Version taxi de la HLX : cadre renforcé et grande selle pour le passager.",
+		"model": {"style": "taxi", "wheel_radius": 0.32},
+		"default_custom": {"color": "bleu", "sticker": "vert", "rims": "alliage", "protection": "crashbar"}
+	},
+	{
+		"id": "haojue_taxi_125", "name": "Haojue Taxi 125", "brand": "Haojue (modèle inspiré)",
+		"type": "moto", "category": "taxi", "price_cdf": 3100000,
+		"power_hp": 9.5, "max_speed_kmh": 82, "consumption_l100": 2.2, "fuel_tank_l": 12,
+		"passengers": 1, "cargo_kg": 80, "weight_kg": 112, "performance_level": 2,
+		"description": "Taxi-moto économique avec porte-bagages arrière.",
+		"model": {"style": "taxi", "wheel_radius": 0.31},
+		"default_custom": {"color": "vert", "sticker": "none", "rims": "acier"}
+	},
+	{
+		"id": "sportive_200", "name": "Sportive 200", "brand": "Générique",
+		"type": "moto", "category": "sportive", "price_cdf": 6500000,
+		"power_hp": 18.0, "max_speed_kmh": 115, "consumption_l100": 3.1, "fuel_tank_l": 12,
+		"passengers": 1, "cargo_kg": 40, "weight_kg": 135, "performance_level": 4,
+		"description": "Carénage complet et belle accélération. Pour les chauffeurs pressés.",
+		"model": {"style": "sportive", "wheel_radius": 0.31},
+		"default_custom": {"color": "rouge", "sticker": "flamme", "rims": "noir"}
+	},
+	{
+		"id": "sportive_250r", "name": "Sportive 250 R", "brand": "Générique",
+		"type": "moto", "category": "sportive", "price_cdf": 9200000,
+		"power_hp": 24.0, "max_speed_kmh": 130, "consumption_l100": 3.6, "fuel_tank_l": 12,
+		"passengers": 1, "cargo_kg": 30, "weight_kg": 148, "performance_level": 5,
+		"description": "Le haut de gamme sportif : vitesse élevée, freinage puissant.",
+		"model": {"style": "sportive", "wheel_radius": 0.32},
+		"default_custom": {"color": "ciel", "sticker": "damier", "rims": "noir"}
+	},
+	{
+		"id": "eco_100", "name": "Éco 100", "brand": "Générique",
+		"type": "moto", "category": "economique", "price_cdf": 1900000,
+		"power_hp": 6.8, "max_speed_kmh": 70, "consumption_l100": 1.6, "fuel_tank_l": 8,
+		"passengers": 1, "cargo_kg": 40, "weight_kg": 90, "performance_level": 1,
+		"description": "La moins chère et la plus économe en carburant. Idéale pour débuter avec un petit budget.",
+		"model": {"style": "economique", "wheel_radius": 0.29},
+		"default_custom": {"color": "gris", "sticker": "none", "rims": "acier"}
+	},
+	{
+		"id": "eco_110_cub", "name": "Éco 110 Cub", "brand": "Générique",
+		"type": "moto", "category": "economique", "price_cdf": 2300000,
+		"power_hp": 7.5, "max_speed_kmh": 75, "consumption_l100": 1.7, "fuel_tank_l": 6,
+		"passengers": 1, "cargo_kg": 45, "weight_kg": 98, "performance_level": 1,
+		"description": "Petite cylindrée très sobre, facile à manier dans les embouteillages.",
+		"model": {"style": "economique", "wheel_radius": 0.28},
+		"default_custom": {"color": "orange", "sticker": "none", "rims": "acier"}
+	},
+	{
+		"id": "trail_250", "name": "Trail 250", "brand": "Générique",
+		"type": "moto", "category": "puissante", "price_cdf": 8500000,
+		"power_hp": 21.0, "max_speed_kmh": 125, "consumption_l100": 3.8, "fuel_tank_l": 14,
+		"passengers": 1, "cargo_kg": 70, "weight_kg": 150, "performance_level": 4,
+		"description": "Grosses roues et suspension haute : passe partout, même sur les routes abîmées.",
+		"model": {"style": "puissante", "wheel_radius": 0.35},
+		"default_custom": {"color": "vert", "sticker": "none", "rims": "noir"}
+	},
+	{
+		"id": "puissante_400", "name": "Puissante 400", "brand": "Générique",
+		"type": "moto", "category": "puissante", "price_cdf": 14000000,
+		"power_hp": 38.0, "max_speed_kmh": 150, "consumption_l100": 4.8, "fuel_tank_l": 16,
+		"passengers": 1, "cargo_kg": 60, "weight_kg": 175, "performance_level": 5,
+		"description": "La reine du garage : très rapide, très chère, très gourmande.",
+		"model": {"style": "puissante", "wheel_radius": 0.35},
+		"default_custom": {"color": "noir", "sticker": "congo", "rims": "dore"}
+	}
+]
